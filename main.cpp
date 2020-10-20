@@ -18,7 +18,7 @@ public:
     }
 
     void insert_list(int e) {
-        Lnode *s = new Lnode;
+        auto *s = new Lnode;
         s->data = e;
         s->next = nullptr;
         Lnode *p = head;
